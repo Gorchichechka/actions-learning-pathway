@@ -55,11 +55,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: "./out"
-          
-      - name: upload pages
-        uses: actions/upload-pages@v4
-        with:
-          path: "./out"
 
       - name: deploy
         id: deployment
